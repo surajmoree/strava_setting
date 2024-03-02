@@ -1,0 +1,1 @@
+export 'pages/editinfo_page.dart';

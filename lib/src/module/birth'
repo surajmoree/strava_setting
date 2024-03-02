@@ -1,0 +1,26 @@
+//   Padding(
+//             padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+//             child: TextField(
+//               controller: birthdayInput,
+//               decoration: InputDecoration(
+//                 suffixIconColor: blackcolor,
+//                 suffixIcon: Icon(Icons.question_mark_sharp),
+//                 border: OutlineInputBorder(borderRadius: BorderRadius.zero),
+//                 label:Text('Birthday',style: TextStyle(color: blackcolor),)
+//               ),
+//               onTap: ()async{
+//                 DateTime? pickbirthday=await showDatePicker(
+//                   context: context, 
+//                   initialDate: DateTime.now(), 
+//                   firstDate: DateTime(1900), 
+//                   lastDate: DateTime(3000));
+//                  if(pickbirthday!=null){
+//                   print(pickbirthday);
+//                   String formattedDate=DateFormat('yyyy-MM-dd').format(pickbirthday);
+//                  setState(() {
+//                    birthdayInput.text=formattedDate;
+//                  });
+//                  }
+//               },
+//             ),
+//           ),
