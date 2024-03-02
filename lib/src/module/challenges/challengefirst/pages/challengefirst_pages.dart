@@ -1,7 +1,5 @@
 
 
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 class ChallengeFirstPage extends StatefulWidget {
   const ChallengeFirstPage({super.key});
@@ -35,7 +33,7 @@ class _ChallengeFirstPageState extends State<ChallengeFirstPage> {
               child: Container(
                 child: Column(
                   children: [
-                    Text("PUMA Forever. Faster. 25k",style: TextStyle(fontSize:23,fontWeight: FontWeight.w600,  decoration: TextDecoration.none),),
+                    Text("Puma Forever. Faster. 25k",style: TextStyle(fontSize:23,fontWeight: FontWeight.w600,  decoration: TextDecoration.none),),
                  Padding(
                    padding: const EdgeInsets.only(top:4.0),
                    child: Text("Challenge",style: TextStyle(fontSize:23,fontWeight: FontWeight.w600,  decoration: TextDecoration.none),),
